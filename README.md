@@ -6,3 +6,4 @@ If you want something to be added then just create a pull request and make the c
 
 As of right now this project is 100% Python. However, this may change in the future.
 
+This is my first actual project on github so I am always open to suggestions and feedback!
