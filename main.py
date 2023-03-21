@@ -12,8 +12,71 @@ if(Continue == " "):
   if (trainingChoice1 == "yes"):
     print("Great! Lets begin!")
     Continue = input("> ")
-    if(Continue == " "):
+    if (Continue == " "):
       print("We will start with a physical exam.")
+      print("You will have to complete 10 JJ's")
+      print("You will do them like ONE. TWO. Ect.")
+      Continue == input ("> ")
+      if (Continue == " "):
+        print("Start")
+        JJ = input("> ")
+        if (JJ == "ONE."):
+          print("Good! Again!")
+
+        else:
+          print("You Failed!")
+          exit()
+          if (JJ == "TWO."):
+            print("Good! Again!")
+          else:
+            print("You Failed!")
+            exit()
+          if (JJ == "THREE."):
+            print("Good! Again!")
+          else:
+            print("You Failed!")
+            exit()
+          if (JJ == "FOUR."):
+            print("Good! Again!")
+          else:
+            print("You Failed!")
+            exit()
+          if (JJ == "FIVE."):
+            print("Good! Again!")
+          else:
+            print("You Failed!")
+            exit()
+          if (JJ == "SIX."):
+            print("Good! Again!")
+          else:
+            print("You Failed!")
+            exit()
+          if (JJ == "SEVEN."):
+            print("Good! Again!")
+          else:
+            print("You Failed!")
+            exit()
+          if (JJ == "EIGHT."):
+            print("Good! Again!")
+          else:
+            print("You Failed!")
+            exit()
+          
+          if (JJ == "NINE."):
+            print("Good! Again!")
+          else:
+            print("You Failed!")
+            exit()
+          if (JJ == "TEN!."):
+            print("Good Job1 We will test you now!")
+          else:
+            print("You Failed!")
+            exit()
+          
+          
+
+        
+        
   elif (trainingChoice1 == "no"):
       print("You are removed from the Academy.")
       exit()
